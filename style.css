@@ -82,7 +82,8 @@ body {
 }
 
 .box .inputBox input:focus ~ label,
-.box .inputBox input:valid ~ label {
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value=""]) ~ label {
   top: -1.125rem;
   left: 10px;
   color: #1a73e8;
